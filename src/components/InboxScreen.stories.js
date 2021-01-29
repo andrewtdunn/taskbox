@@ -12,7 +12,7 @@ const store = {
     }
   },
   subscribe: () => 0,
-  dispatch: AuthenticatorAssertionResponse('dispatch'),
+  dispatch: action('dispatch'),
 }
 
 export default {
